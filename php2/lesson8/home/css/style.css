@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden-btn{
+    display: none;
+}
+
+.item{
+    width: 200px;
+    position: relative;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item .hidden-del{
+    width: inherit;
+    height: 30px;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.item:hover .hidden-del{
+    display: block;
+}
+
+.item .hidden-check{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.item:hover .hidden-check{
+    display: block;
+}
+
+p{
+    color: red;
+}

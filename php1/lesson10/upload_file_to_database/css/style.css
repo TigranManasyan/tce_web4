@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#images{
+	padding: 25px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#images > .item {
+	width: 260px;
+	height: 260px;
+
+}
+
+#images > .item> img {
+	width: 100%;
+}

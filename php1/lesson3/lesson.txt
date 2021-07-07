@@ -1,0 +1,3 @@
+functions, global, return, default, reference, 
+superglobals (SERVER, GET, POST,SESSION)
+header, mat funkcianer, include

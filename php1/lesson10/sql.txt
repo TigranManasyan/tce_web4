@@ -1,0 +1,9 @@
+SELECT DISTINCT product_name FROM `products`;
+SELECT * FROM `products` LIMIT 3; //3 hat tvyal
+SELECT * FROM `products` LIMIT 3, 4; //4-ic sksac 4 tvyal
+SELECT * FROM `products` ORDER BY `product_name`; // dasavorum e aybenakan kam ajman kargov yst trvac dashti
+SELECT * FROM `products` ORDER BY `product_name` DESC; //yst nvazman kargi
+SELECT COUNT(*) FROM `products`;// tpum e toxeri qanak@
+SELECT MAX(price) FROM `products`;//veradarcnum e trvac daSHTUM MAXIMUM arjeq@
+SELECT MIN(price) FROM `products`;//veradarcnum e trvac daSHTUM MINIMUM arjeq@
+SELECT SUM(price) FROM `products`; // hashvum e nshvac dashti gumar@
